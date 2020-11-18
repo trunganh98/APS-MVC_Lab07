@@ -1,0 +1,23 @@
+﻿@model LoginMVC.Models.AppUser
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Login MVC App</title>
+    </head>
+    <body>
+        <h1>@Model.UserName</h1>
+        <h1>@Model.PassWord</h1>
+
+        <hr />
+        <form method="post" asp-controller="Login" asp-action="Index">
+            <label>Welcome to MVC!!!</label>
+            <br /><br />
+            <input type="text" asp-for="UserName" />
+            <br /><br />
+            <input type="password" asp-for="PassWord" />
+            <br /><br />
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+    </html>
+ 

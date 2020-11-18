@@ -1,0 +1,22 @@
+﻿@page
+@model NewsRazorPages.Pages.IndexModel
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>News RazorPage!!!</title>
+    </head>
+    <body>
+        <h1>@Model.Heading.Title</h1>
+        <hr />
+        <img src="@Model.Heading.ImgURL" />
+        <form method="post">
+            <label asp-for="Heading.Content"></label>
+            <br />
+            <label asp-for="Heading.Description"></label>
+            <br /><br />
+            <input type="text" asp-for="Heading.Title" />
+            <br /><br />
+            <button type="submit">Submit</button>
+
+        </form>
+    </body>
+    </html>
