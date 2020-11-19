@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SEM3\\W\\NewsRazorPages\\NewsRazorPages\\NewsRazorPages.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\APS-MVC_Lab07\\NewsRazorPages\\NewsRazorPages\\NewsRazorPages.csproj",
       "projectName": "NewsRazorPages",
-      "projectPath": "D:\\SEM3\\W\\NewsRazorPages\\NewsRazorPages\\NewsRazorPages.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\APS-MVC_Lab07\\NewsRazorPages\\NewsRazorPages\\NewsRazorPages.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\SEM3\\W\\NewsRazorPages\\NewsRazorPages\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\APS-MVC_Lab07\\NewsRazorPages\\NewsRazorPages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
